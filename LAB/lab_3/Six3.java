@@ -23,12 +23,15 @@ public class Six3 {
 	}
 
 	public static int reverse(int number) {
+		int reverse = 0;
 		while (number > 0) {
-			System.out.print((number % 10));
-			number /= 10;
+			//System.out.print((number % 10));
+			reverse *= 10;
+			reverse += (number % 10);
+			number /=10;
 		}
-		System.out.println();
-		return number;
+//		System.out.println();
+		return reverse; // JA
 	}
 		
 }
