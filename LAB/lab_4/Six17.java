@@ -2,7 +2,7 @@
 public class Six17 {
 
 	public static void main(String[] args) {
-		 printMatrix(3);
+		 printMatrix(3); // JA: You were supposed to read this from standard input
     }
 
     public static void printMatrix(int n) {
