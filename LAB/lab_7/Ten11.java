@@ -1,4 +1,4 @@
-
+//JA: You are missing the constructory
 public class Ten11 {
 
 	public static void main(String[] args) {
